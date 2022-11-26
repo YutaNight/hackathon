@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>あなたの寿命を計算します</h1>
+<form method="POST">
+  {{ form.csrf_token }}
+  {{ form.gender.label }}{{ form.gender() }}
+  {{ form.population.label }}{{ form.population() }}
+  {{ form.age.label }}{{ form.age() }}
+  {{ form.background.label }}{{ form.background() }}
+  {{ form.income.label }}{{ form.income() }}
+  {{ form.family1.label }}{{ form.family1() }}
+  {{ form.family2.label }}{{ form.family2() }}
+  {{ form.family3.label }}{{ form.family3() }}
+  {{ form.housemate.label }}{{ form.housemate() }}
+  {{ form.alone.label }}{{ form.alone() }}
+  {{ form.exercise.label }}{{ form.exercise() }}
+  {{ form.work.label }}{{ form.work() }}
+  {{ form.sleep.label }}{{ form.sleep() }}
+  {{ form.personality.label }}{{ form.personality() }}
+  {{ form.cigarettes.label }}{{ form.cigarettes() }}
+  {{ form.weight.label }}{{ form.weight() }}
+  {{ form.submit() }}
+</form>
+{% endblock %}

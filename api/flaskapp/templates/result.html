@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>寿命計算結果</h1>
+<!-- <div>
+  <p>性別:{{ session['gender'] }}</p>
+  <p>住んでいる場所の人口:{{ session['population'] }}</p>
+  <p>年齢:{{ session['age'] }}</p>
+  <p>最終学歴:{{ session['background'] }}</p>
+  <p>年収:{{ session['income'] }}</p>
+  <p>家族関係1:{{ session['family1'] }}</p>
+  <p>家族関係2:{{ session['family2'] }}</p>
+  <p>家族関係3:{{ session['family3'] }}</p>
+  <p>同居人:{{ session['housemate'] }}</p>
+  <p>一人暮らし期間:{{ session['alone'] }}</p>
+  <p>運動頻度:{{ session['exercise'] }}</p>
+  <p>仕事:{{ session['work'] }}</p>
+  <p>睡眠時間:{{ session['sleep'] }}</p>
+  <p>性格:{{ session['personality'] }}</p>
+  <p>煙草:{{ session['cigarettes'] }}</p>
+</div> -->
+<h2>寿命:{{ life_span }}歳</h2>
+{% endblock %}

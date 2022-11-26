@@ -1,0 +1,176 @@
+{
+    "junior": [
+        {
+            "artist": "X JAPAN",
+            "comment": "母の影響で最初にハマったバンド<br>中学生の頃は食卓で永遠にライブ映像が流れていた<br>ここから派生してGt.hideや諸々V系バンドにハマる",
+            "song": [
+                "Silent Jealousy",
+                "Sadistic Desire",
+                "WEEK END",
+                "CELEBRATION",
+                "Say Anything"
+            ],
+            "img": "xjapan.jpg"
+        },
+        {
+            "artist": "GLAY",
+            "comment": "Gt.hisashiがhide感あって好きになった<br>2000年ごろの全盛期にライブ行ってみたかった<br>",
+            "song": [
+                "いつか",
+                "誘惑",
+                "MERMAID",
+                "彼女の'Modern...'",
+                "軌跡の果て"
+            ],
+            "img": "glay.jpg"
+        },
+        {
+            "artist": "椎名林檎",
+            "comment": "これも母親の影響<br>幼稚園や小学校の頃は車の中で永遠に聞かされていた<br>東京事変の群青日和の時のルックスが神",
+            "song": [
+                "正しい街",
+                "幸福論 (悦楽編)",
+                "丸の内サディスティック",
+                "ギブス",
+                "群青日和 (東京事変)"
+            ],
+            "img": "ringo.jpg"
+        },
+        {
+            "artist": "L'Arc~en~Ciel",
+            "comment": "最初はHYDEの歌い方が受け付けなかったが、いつの間にかハマった<br>4人ともヒット曲作成しててバランスがいい<br>瞳の住人は声高すぎて歌えない",
+            "song": [
+                "flower",
+                "NEO UNIVERSE",
+                "瞳の住人",
+                "SEVENTH HEAVEN",
+                "New World"
+            ],
+            "img": "larc.jpg"
+        },
+        {
+            "artist": "ELLEGARDEN",
+            "comment": "ハマった時には既に解散していたが、大学在学中に復活して泣いて喜んだ<br>まだ生で見たことない<br>人生で初めてのダイブはエルレのSupernovaと決めている",
+            "song": [
+                "Supernova",
+                "Make a Wish",
+                "The Autumn Song",
+                "Mr.Feather",
+                "風の日"
+            ],
+            "img": "elle.jpg"
+        }
+    ],
+    "university": [
+        {
+            "artist": "SUPER BEAVER",
+            "comment": "おそらく大学在学中一番ハマったバンド<br>Vo.渋谷の歌がうまいだけでなく、MCが素晴らしい<br>全曲Gt.柳沢が作成してて才能の塊",
+            "song": [
+                "嬉しい涙",
+                "まごころ",
+                "愛しい人",
+                "正攻法",
+                "まわる、まわる"
+            ],
+            "img": "beaver.jpg"
+        },
+        {
+            "artist": "My Hair is Bad",
+            "comment": "Vo.椎木のライブでのアドリブ感が刺さる<br>椎木に群がる女ども(通称:椎木ガールズ)が鬱陶しすぎてライブ行かなくなった",
+            "song": [
+                "接吻とフレンド",
+                "味方",
+                "真赤",
+                "虜",
+                "白春夢"
+            ],
+            "img": "myhair.jpg"
+        },
+        {
+            "artist": "HEY-SMITH",
+            "comment": "管楽器がいる珍しいバンド<br>コロナ禍でなければダイブもモッシュもなんでもあり<br>何回かメンバーと会って写真撮ってもらった経験",
+            "song": [
+                "We Sing Our Song",
+                "Judgemant Day",
+                "Stand Up for Your Rights",
+                "Radio",
+                "Drug Free Japan"
+            ],
+            "img": "hey.jpg"
+        },
+        {
+            "artist": "04 Limited Sazabys",
+            "comment": "とにかくVo.GENの声が高く、Dr.KOHEIがうますぎる<br>ライブでのmonolith→fadeの繋ぎが素晴らしい<br>ライブキッズが多め",
+            "song": [
+                "monolith",
+                "My HERO",
+                "fade",
+                "Buster Call",
+                "climb"
+            ],
+            "img": "04.jpg"
+        }
+    ],
+    "worker": [
+        {
+            "artist": "Hump Back",
+            "comment": "初めて見た時号泣してハマった<br>最近チケット当たらなくなってきて悲しい<br>早くライブハウスで見たい",
+            "song": [
+                "LILLY",
+                "宣誓",
+                "きみは春",
+                "番狂わせ",
+                "いつか"
+            ],
+            "img": "hump.jpg"
+        },
+        {
+            "artist": "SCANDAL",
+            "comment": "アイドルバンド的なイメージを持っていたが、最近はひたすら格好いい<br>A.M.D.K.J.のMV見たら印象変わると思う<br>海外人気も強いバンド",
+            "song": [
+                "ちいさなほのお",
+                "A.M.D.K.J.",
+                "アイボリー",
+                "プラットホームシンドローム",
+                "OVER"
+            ],
+            "img": "scandal.jpg"
+        },
+        {
+            "artist": "ストレイテナー",
+            "comment": "4人全員演奏力が高く安定感がある<br>観客も落ち着いた方が多い<br>2階席からしっぽり観たいバンド",
+            "song": [
+                "彩雲",
+                "冬の太陽",
+                "シーグラス",
+                "Melodic Storm",
+                "KILLER TUNE"
+            ],
+            "img": "tena.jpg"
+        },
+        {
+            "artist": "夏川椎菜",
+            "comment": "声優ユニットTrySailのメンバー<br>服装やキャラがドンピシャで刺さる<br>一人称が「夏川」なのが好き",
+            "song": [
+                "パレイド",
+                "ミザントロープ",
+                "ステテクレバー",
+                "アンチテーゼ",
+                "ハレノバテイクオーバー"
+            ],
+            "img": "shiina.jpg"
+        },
+        {
+            "artist": "SPARK!!SOUND!!SHOW!!",
+            "comment": "ボーカルが柵や棒によじ登ったりライブ撮影がOKだったり自由<br>フェスで観て一発でハマった<br>周りで知ってる人はほぼいない",
+            "song": [
+                "BRUSH UP",
+                "Swinga!",
+                "南無",
+                "感電!",
+                "STEAL!!"
+            ],
+            "img": "sss.jpg"
+        }
+    ]
+}

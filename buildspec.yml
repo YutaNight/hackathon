@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - cd $CODEBUILD_SRC_DIR/web
+      - npm install --save --legacy-peer-deps
+  build:
+    commands:
+      - echo web build start...
+      - npm run build
+      - echo web build completed
+  post_build:
+    commands:
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com
+      - cd $CODEBUILD_SRC_DIR/web
+      - docker build -t dothack-naito-web-repo .
+      - docker tag dothack-naito-web-repo:latest 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com/dothack-naito-web-repo:latest
+      - docker push 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com/dothack-naito-web-repo:latest
+      - echo web image pushed!
+      - cd $CODEBUILD_SRC_DIR/api
+      - docker build -t dothack-naito-flask-repo .
+      - docker tag dothack-naito-flask-repo:latest 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com/dothack-naito-flask-repo:latest
+      - docker push 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com/dothack-naito-flask-repo:latest
+      - echo api image pushed!
+      - cd $CODEBUILD_SRC_DIR
+      - printf '[{"name":"%s","imageUri":"%s"}, {"name":"%s","imageUri":"%s"}]' web 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com/dothack-naito-web-repo:latest api 402970700808.dkr.ecr.ap-southeast-1.amazonaws.com/dothack-naito-flask-repo:latest > imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json
